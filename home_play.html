@@ -1,64 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME PLAY</title>
-    <link rel="stylesheet" href="home_style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div id="outer_won_div">
-        <span><a href="home_play.html" id="cancel" rel="noopener noreferrer">cancel</a></span>
-        <div id="won_div1">
-            <img id="won_image" src="image/you_won.jpg" alt="">
-        </div>
+      <span
+        ><a href="home_play.html" id="cancel" rel="noopener noreferrer"
+          >cancel</a
+        ></span
+      >
+      <div id="won_div1">
+        <img id="won_image" src="" alt="" />
+      </div>
 
-        <div id="won_div2">
-            <!-- <h1 >Y<span>O</span>U</h1> -->
-            <h1 id="prompt_id"></h1>
-        </div>
-
-
+      <div id="won_div2">
+        <!-- <h1 >Y<span>O</span>U</h1> -->
+        <h1 id="prompt_id"></h1>
+      </div>
     </div>
 
-
-
     <main id="main_id" class="main_day_color">
-        <div class="header_content header_day_color">
-            <img class="img1" src="image/player_logo.png" alt="player" width="200px" , height="auto">
-            <h1 class="score" id="user-score">0</h1>
-            <h1 class="score" id="computer-score">0</h1>
-            <img class="img2" src="image/machine_logo.png" alt="machine" width="160" , height="auto">
-        </div>
-        <div class="result">
-            <h1 id="result-h1">THIS IS A RESULT</h1>
-        </div>
-        <div class="rps_btn rps_btn_day_color">
-            <i class=" click_btn  far fa-hand-rock  r"></i>
-            <i class=" click_btn  fas fa-hand-paper  p" class="btn"></i>
-            <i class=" click_btn far fa-hand-scissors  s" class="btn"></i>
-        </div>
+      <div class="header_content header_day_color">
+        <img
+          class="img1"
+          src="image/player_logo.png"
+          alt="player"
+          width="200px"
+          ,
+          height="auto"
+        />
+        <h1 class="score" id="user-score">0</h1>
+        <h1 class="score" id="computer-score">0</h1>
+        <img
+          class="img2"
+          src="image/machine_logo.png"
+          alt="machine"
+          width="160"
+          ,
+          height="auto"
+        />
+      </div>
+      <div class="result">
+        <h1 id="result-h1">THIS IS A RESULT</h1>
+      </div>
+      <div class="rps_btn rps_btn_day_color">
+        <i class="click_btn far fa-hand-rock r"></i>
+        <i class="click_btn fas fa-hand-paper p" class="btn"></i>
+        <i class="click_btn far fa-hand-scissors s" class="btn"></i>
+      </div>
 
-        <div class="show">
-            <h2>-- MAKE YOUR MOVE --</h2>
-        </div>
-        <div class="mode_div">
-            <button class="day_night_mode_btn" type="button">DAY</button>
-
-        </div>
+      <div class="show">
+        <h2>-- MAKE YOUR MOVE --</h2>
+      </div>
+      <div class="mode_div">
+        <button class="day_night_mode_btn" type="button">DAY</button>
+      </div>
     </main>
 
-
-
-
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
