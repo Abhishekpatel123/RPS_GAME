@@ -1,0 +1,199 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.carousel{padding-left: 15px; }
+.carousel-inner{border-radius: 15px; border: 2px solid
+    rgba(87, 87, 87, 0.212); }
+
+ /* loading css */
+#loading{
+    width: 100vw;
+    height: 100vh;
+    background: white url('image/loader.gif') no-repeat center;
+    z-index: 100;
+}
+
+.navbar{display: flex ; align-items: center; padding-left: 40px;}
+
+#outer_span_of_forever{
+    font-size: 20px; margin-left:20px; letter-spacing: 2px; font-weight: 400;
+}
+
+#outer_span_of_forever:hover{
+    color: crimson;
+    
+}
+#inner_span_of_forever{
+    color: crimson; font-weight: bold; font-size: 27px;
+}
+#inner_span_of_forever:hover{
+    color: whitesmoke;
+    
+}
+
+.logo_img{width: 60px; height: 60px;}
+.about{text-decoration: none;
+    color: aliceblue;}
+.about span{
+    font-size: 16px;  letter-spacing: 2px; font-weight: 400;
+    margin-left: 90px;
+    
+    
+}
+.about:hover{
+    color: rgb(39, 107, 85);
+    
+    text-decoration: none;
+}
+
+
+.content {
+    background-image: url('image/content_photo1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_content{
+    width: 90%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.btn{
+    background-color: crimson;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 30px;
+    border-radius: 8px;
+    letter-spacing: 2px;   
+    border: 1px solid transparent;
+    transition: all 1.5s;
+    
+}
+.btn:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid wheat;
+}
+
+.main_about{
+    background-color: whitesmoke;
+    background-color: yellow;
+}
+.main_about h1{
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+    margin: 20px 0px ;
+    font-size: 45px;
+    background-color: violet;
+    height:70px;
+}
+.about_and_image{
+    display: flex;
+    
+    background-color: yellowgreen;
+
+}
+
+.image1{
+    background-image: url(image/about_photo5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    flex: 1;
+
+}
+.about1{
+    flex: 1;
+}
+
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(99, 90, 90);
+    margin-top: 40px;
+}
+.top_footer{display: flex; justify-content: center;}
+.top_footer a{
+    font-size: 28px;
+    text-decoration: none;
+    color: darkblue;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    transition: all 1s;
+    
+}
+.top_footer a span{
+    color: rgba(233, 44, 44, 0.815);
+    font-weight: bold;
+    font-size: 33px;
+}
+.top_footer a:hover{
+    background-color: rgba(137, 43, 226, 0.459);
+    color: whitesmoke;
+
+    border: none;
+    padding: 4px 8px;
+}
+.bottom_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bottom_footer a i{
+    color: #000;
+    font-size: 30px;
+    margin: 0px 10px;
+    transition: all 0.7s;
+
+}
+.bottom_footer a i:hover{
+    color: rgb(170, 219, 219);
+}
+
+
+
+
+
+
+@media(max-width:500px){
+    #inner_span_of_forever{font-size: 20px;}
+    #outer_span_of_forever{font-size: 13px;} 
+    .logo_img {
+        width: 45px;
+        height: 45px;
+    }
+    .content{height: 60vh;}
+    .btn{    font-size: 11px;
+        font-weight: 700;
+        padding: 7px 21px;
+        border-radius: 8px;
+        letter-spacing: 1px;}
+        footer{height: 85px;}
+        .top_footer a{font-size: 15px;}
+        .top_footer a span{font-size: 19px;}
+        .bottom_footer{margin-top: 5px;}
+        .bottom_footer a i{font-size: 23px;}
+
+}
